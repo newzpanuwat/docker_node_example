@@ -44,7 +44,7 @@ Example
 CONTAINER ID => d79d51d685ad      
 IMAGE => <your username>/node-web-app:latest
 
-- $ docker exec -it <container id> /bin/bash
+- $ docker exec -it d79d51d685ad /bin/bash
   
 การทดสอบว่าใช้งานได้
 - $ curl -i localhost:49160
