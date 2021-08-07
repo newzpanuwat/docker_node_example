@@ -11,6 +11,10 @@ https://docs.docker.com/docker-for-mac/install/
 Ubuntu
 https://docs.docker.com/engine/install/ubuntu/
 
+ทดสอบว่า docker ใช้งานได้
+- $ docker version
+
+หากสามารถใช้งานได้แล้ว จะแสดงversion ขึ้นมา
 
 วิธีการใช้
 
@@ -20,25 +24,29 @@ SSH
 HTTPS
 - https://github.com/newzpanuwat/docker_node_example.git
 
-ทำสอบการใช้งาน
+ทดสอบการใช้งาน
 
-build image
+Build Image
 
 - $ docker build . -t <your username>/node-web-app
+
+List images
+- $ docker images
   
-run image
+Run image
 - $ docker run -p 49160:8080 -d <your username>/node-web-app
   
 หากต้องการเข้าไปใน container นั้นๆ
 - $ docker ps
   
 Example
-ID            IMAGE                                COMMAND    ...   PORTS
-d79d51d685ad  <your username>/node-web-app:latest  npm start  ...   49160->8080
+
+CONTAINER ID => d79d51d685ad      
+IMAGE => <your username>/node-web-app:latest
 
 - $ docker exec -it <container id> /bin/bash
   
-ทดสอบว่าใช้งานได้
+การทดสอบว่าใช้งานได้
 - $ curl -i localhost:49160
 
   
