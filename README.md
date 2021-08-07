@@ -13,4 +13,8 @@ https://docs.docker.com/engine/install/ubuntu/
 
 
 "วิธีการใช้"
-- git clone 
+SSH
+- git@github.com:newzpanuwat/docker_node_example.git
+
+HTTPS
+- https://github.com/newzpanuwat/docker_node_example.git
