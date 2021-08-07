@@ -16,13 +16,13 @@ https://docs.docker.com/engine/install/ubuntu/
 
 หากสามารถใช้งานได้แล้ว จะแสดงversion ขึ้นมา
 
-วิธีการใช้
+วิธีการใช้ (ไฟล์ตัวอย่าง)
 
 SSH
-- git@github.com:newzpanuwat/docker_node_example.git
+- git clone git@github.com:newzpanuwat/docker_node_example.git
 
 HTTPS
-- https://github.com/newzpanuwat/docker_node_example.git
+- git clone https://github.com/newzpanuwat/docker_node_example.git
 
 ทดสอบการใช้งาน
 
