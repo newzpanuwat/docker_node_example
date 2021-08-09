@@ -32,13 +32,13 @@ HTTPS
 
 Build Image
 
-- $ docker build . -t <your username>/node-web-app
+- $ docker build . -t your username/node-web-app
 
 List images
 - $ docker images
   
 Run image
-- $ docker run -p 49160:8080 -d <your username>/node-web-app
+- $ docker run -p 49160:8080 -d your username/node-web-app
   
 หากต้องการเข้าไปใน container นั้นๆ
 - $ docker ps
